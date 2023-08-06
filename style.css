@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    text-align: center;
+    margin-top: 50px;
+}
+.container .form-title h3{
+    font-weight: 500;
+    color: #2b9942;
+}
+.form-title {
+    font-weight: 400;
+    display: inline-block;
+    position: relative;
+  }
+  .form-title:after,
+  .form-title:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+  }
+  .form-title:after {
+    height: 2px;
+    width: 90px;
+    background-color: rgba(212, 212, 212, 0.973);
+    left: 135px;
+    right: 0px;
+    top: 15px;
+  }
+.form-title h3{
+    font-weight: 400;
+    display: inline-block;
+    position: relative;
+  }
+  .form-title h3:after,
+  .form-title h3:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+  }
+  .form-title h3:after {
+    height: 2px;
+    width: 90px;
+    background-color: rgba(212, 212, 212, 0.973);
+    left: -105px;
+    right: 0px;
+    top: 15px;
+  }
+  
+.form-start{
+    display: grid;
+    justify-content: center;
+    margin-top: 15px;
+}
+.form-container{
+    text-align: start;
+    border: 1px solid black;
+    width: 300px;
+    padding: 15px 20px;
+    margin: 10px 0px;
+    border: 1px solid #c4c0c0;
+    border-radius: 5px;
+}
+.inner-form-container{
+    display: flex;
+    justify-content: space-between;   
+}
+.inner-form-container .inner-text{
+    padding-left: 5px;
+    font-size: 14px;
+}
+.inner-form-container p{
+    padding-left: 23px;
+    padding-top: 2px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.inner-form-container h5{
+    color: rgb(39, 163, 80);
+}
+.outer-drop-down1, .outer-drop-down2, .outer-drop-down3{
+    display: flex;
+}
+
+.inner-drop-down{
+    margin: 6px 5px;
+}
+
+.inner-drop-down .size-label{
+    padding-left: 22px;
+    font-size: 14px;
+}
+.inner-drop-down .color-label{
+    font-size: 14px;
+}
+select {
+    width: 80px;
+    height: 25px;
+    border: 1px solid #c4c0c0;
+    border-radius: 3px;
+    color: #666464;    
+    font-size: 12px;
+}
+option {
+    color: #666464;    
+    font-size: 14px;
+}
+
+.form-container.active{
+    background-color: #e3ffe9;
+    border: 1px solid #02c92d;
+}
+
+.shipping-details{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0 20px 0px;
+    font-size: 15px;
+}
+
+.shipping-details .shipping p{
+    color: #2b9942;
+    font-weight: 500;
+}
+
+.btn button{
+    background-color: #2e9656;
+    color: #fff;
+    padding: 10px 10px;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    font-size: 15px;
+}
+
+.copy-right {
+   padding: 10px 0px 0px 200px;
+   color: #666464;
+   font-size: 14px;
+}
+
+input[type=radio] {
+    accent-color: #239656;
+ }
